@@ -1,0 +1,31 @@
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    table, tr, td{
+        width: 800px;
+        border: 1px solid black;
+        text-align: center;
+        display: flex;
+    }
+    .main-td{
+        
+        width: 800px;
+        height: 500px;
+        background-color: rgb(4, 159, 243);
+        font-size: 100px;
+    }
+    .add-btn{
+        align-content: flex-end;
+    }
+    input{
+        width: 500px;
+    }
+    button{
+        background-color: black;
+        color: white;
+        margin: 0 10px;
+    }
