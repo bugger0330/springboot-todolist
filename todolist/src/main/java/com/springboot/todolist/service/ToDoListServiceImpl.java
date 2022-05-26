@@ -17,8 +17,8 @@ public class ToDoListServiceImpl implements ToDoListService {
 	private final ToDoListRepository toDoListRepository;
 	
 	@Override
-	public List<ToDoList> getList(int id) {
-		List<ToDoList> toDoList = toDoListRepository.getList(id);
+	public List<ToDoList> getList() {
+		List<ToDoList> toDoList = toDoListRepository.getList();
 		for(int i = 0; i < toDoList.size(); i++) {
 			System.out.println("서비스-getList : " + toDoList.get(i));
 		}

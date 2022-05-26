@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-<link rel="stylesheet" href="../../css/todolist.css">
+<link rel="stylesheet" href="/static/css/todolist.css">
 </head>
 <body>
     <br>
@@ -11,24 +11,20 @@
     <br>
     <br>
     <div class="container">
-        <table>
+        <table class="table-all">
             <tr>
                 <td class="main-td">강민의 ToDoList</td>
             </tr>
             <tr>
                 <td>
-                    <input type="text" class="content"><button class="add-btn">추가</button>
+                    <input type="text" class="content"><button class="add-btn">add추가</button>
                 </td>
             </tr>
-            <tr>
-                <td>
-                    <input type="text" class="content">
-                    <button class="modify-btn">수정</button>
-                    <button class="delete-btn">삭제</button>
-                </td>
-            </tr>
+            <tfoot class="tbody">
+	            
+            </tfoot>
         </table>
     </div>
-    <script type="text/javascript" src="../../js/todolist.js"></script>
+    <script type="text/javascript" src="/static/js/todolist.js"></script>
 </body>
 </html>

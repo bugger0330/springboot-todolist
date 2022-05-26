@@ -6,7 +6,7 @@
 <mapper namespace="com.springboot.todolist.domain.todolist.ToDoListRepository">
   
   	<select id="getList" parameterType="Integer" resultType="com.springboot.todolist.domain.todolist.ToDoList">
-  		select * from todolist_mst where id = #{id};
+  		select * from todolist_mst;
   	</select>
   
   	<insert id="addToDo" parameterType="com.springboot.todolist.domain.todolist.ToDoList">

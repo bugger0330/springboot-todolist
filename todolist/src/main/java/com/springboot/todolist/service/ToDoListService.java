@@ -7,7 +7,7 @@ import com.springboot.todolist.web.dto.ToDoListDto;
 
 public interface ToDoListService {
 
-	public List<ToDoList> getList(int id);
+	public List<ToDoList> getList();
 	public boolean addToDo(ToDoListDto toDoListDto);
 	public boolean modifyToDo(int id, ToDoListDto toDoListDto);
 	public boolean removeToDo(int id);
