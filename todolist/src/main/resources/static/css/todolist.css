@@ -29,3 +29,28 @@
         color: white;
         margin: 0 10px;
     }
+    .modify-btn{
+    	display: inline;
+    }
+    .delete-btn{
+    	display: inline;
+    }
+
+	.yes-btn{
+		display: none;
+	}
+	.no-btn{
+		display: none;
+	}
+	.change1{
+		display: none;
+	}
+	.change2{
+		display: none;
+	}
+	.change3{
+		display: inline;
+	}
+	.change4{
+		display: inline;
+	}
