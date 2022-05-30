@@ -62,6 +62,7 @@ addBtn.onclick = () => {
 	.then(response => {
 		if(response.ok){
 			alert("등록 완료");
+			content.value = "";
 			load();
 		}else{
 			throw new Error("비동기 처리 오류");

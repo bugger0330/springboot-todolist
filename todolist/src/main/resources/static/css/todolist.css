@@ -12,12 +12,13 @@
         
     }
     .main-td{
-        
+        text-align: center;
         width: 800px;
-        height: 500px;
+        height: 400px;
         background-color: rgb(4, 159, 243);
         font-size: 100px;
     }
+
     .add-btn{
         align-content: flex-end;
     }
