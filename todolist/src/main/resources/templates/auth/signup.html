@@ -4,16 +4,36 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
+<style>
+
+#container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+#container > div{
+	display: flex;
+	flex-direction: column;
+
+	border: 1px solid black;
+	max-width: 300px;
+}
+
+
+
+</style>
 <body>
 	<div id="container">
 		<div>
-		<h1>회원가입</h1>
-			아이디<input type="text" name="username">
-			비밀번호<input type="password" name="password">
-			이름<input type="text" name="name">
-			이메일<input type="text" name="email">
-			
-			<button type="button">회원가입</button>
+			<h1>회원가입</h1>
+				아이디<input type="text" name="username"><br>
+				비밀번호<input type="password" name="password"><br>
+				이름<input type="text" name="name"><br>
+				이메일<input type="text" name="email"><br>
+				
+				<button type="button">회원가입</button><br>
 		</div>
 	</div>
 	<script type="text/javascript" src="/static/js/auth/signup.js"></script>
